@@ -1,22 +1,26 @@
-# Day 1 — executed 2026-09-21
+# Day 1 — 2026-09-21
 
 GitHub: https://github.com/psycho-v1/fairline-l1
+Issue: https://github.com/psycho-v1/fairline-l1/issues/1
 
-Chain-id 482901: not in the forbidden list; not on chainlist.org at last check.
+## Paperwork that can be finished by one person
 
-## Done
-
-- [x] Repo tree created
+- [x] Repo tree and public GitHub repo
 - [x] Constitution committed
-- [x] params.toml locked for testnet-1
-- [x] Public GitHub repo (psycho-v1/fairline-l1)
-- [x] psycho-v1 listed as collector + validator 1
+- [x] params.toml locked (EVM 482901, Fairline / tFLN working name)
+- [x] Collector named: psycho-v1
+- [x] Comms owner named: psycho-v1
+- [x] Operator 1 ack posted on issue #1
+- [x] Invite text ready: docs/OPERATOR_INVITE.md
+- [x] No keys generated
+- [x] No genesis written
+- [x] No live-ticker announcement
 
-## Still human
+## Paperwork that cannot be finished by one person
 
-- [ ] Name operators 2 and 3
-- [ ] Three CONSTITUTION acks
-- [ ] Comms owner named
-- [ ] Name Fairline / tFLN confirmed or changed before Day 4
+- [ ] Operator 2 named + CONSTITUTION ack
+- [ ] Operator 3 named + CONSTITUTION ack
 
-Do not generate genesis or keys until operators 2 and 3 exist.
+Day 1 is **blocked** on those two names. Inventing them, or cutting two extra keys on the same laptop, would violate CONSTITUTION.md items 2 and 3.
+
+When 2 and 3 comment on issue #1 with the four-line ack, tick the boxes and start Day 3.
