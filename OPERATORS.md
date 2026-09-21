@@ -1,6 +1,6 @@
 # Operators for devnet-0
 
-Fill handle, machine, and collector name today. Leave address fields empty until Day 5.
+Fill handle and machine for rows 2 and 3. Leave address fields empty until keys exist.
 
 Each row is a person who generates keys on hardware they control. A second key on the same laptop does not count.
 
@@ -13,4 +13,4 @@ Each row is a person who generates keys on hardware they control. A second key o
 
 Collector for this week: psycho-v1
 Git: https://github.com/psycho-v1/fairline-l1
-Devnet issue: to be opened as `devnet-0`
+Devnet issue: https://github.com/psycho-v1/fairline-l1/issues/1
