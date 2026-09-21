@@ -1,0 +1,11 @@
+# never commit keys or node state
+*.key
+*.key.json
+node_key.json
+priv_validator_key.json
+priv_validator_state.json
+*.mnemonic
+data/
+*.log
+.env
+.fairline-devnet/

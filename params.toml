@@ -1,0 +1,30 @@
+# Fairline locked parameters — testnet-1
+# Checked against chainlist.org/rpcs.json on 2026-09-21 (2933 ids).
+# Re-check before any public announcement. Do not use 1404 or 262144.
+
+display_name     = "Fairline Testnet"
+ticker           = "tFLN"
+cosmos_chain_id  = "fairline-testnet-1"
+evm_chain_id     = 482901
+bech32_prefix    = "fair"
+base_denom       = "atfln"      # 18 decimals
+display_denom    = "tfln"
+decimals         = 18
+
+# Validator dust only. Replace N after you know validator count.
+genesis_validators          = 3          # this week; 7 before public testnet
+self_bond_per_validator     = "10000000000000000000000"   # 10000 tFLN
+fee_float_per_validator     = "100000000000000000000"     # 100 tFLN
+community_pool              = "0"
+foundation_alloc            = "0"
+
+unbonding_time              = "24h"
+max_validators              = 20
+inflation                   = "0"
+evm_permissioning           = "permissionless"
+blocklist_in_consensus      = false
+snapshot_of_1404_at_genesis = false
+
+# Forbidden
+forbidden_evm_chain_ids     = [1404, 1337, 31337, 262144]
+forbidden_names             = ["BlockDAG", "BDAG", "Block Dag"]
